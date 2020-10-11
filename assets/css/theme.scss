@@ -3,7 +3,8 @@
 ---
 
 $brown: #B59F62;
-$teal: #40FFDC;
+// $teal: #40FFDC;
+$teal: #27C1FE;
 $black: #111;
 $primary: $teal;
 $dark:    $black;
@@ -729,4 +730,11 @@ body.active-side {
             height:35px;
         }
     }
+}
+
+.social-links {
+    list-style: none;
+    display:inline;
+    padding: 5px;
+
 }

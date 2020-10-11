@@ -1,5 +1,5 @@
 ---
 layout: tags
-title: Tags
+title: Тэги
 permalink: /tags
 ---
