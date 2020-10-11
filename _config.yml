@@ -1,8 +1,9 @@
 # Site
 name: "Alexandr's Basan Blog"
 title: "Alexandr's Basan Blog"
-description: "I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!"
+description: "Этот блог о том что влияет на вашу жизнь каждый день, если вы живете ее, а не чью-то другую!"
 logo: 'assets/images/logo.png'
+logo-full: 'assets/images/AlexandrBasan.png'
 favicon: 'assets/images/logo.png'
 baseurl: /jekyll-theme-memoirs
 google_analytics: 'UA-xxxxxxxx-1'
