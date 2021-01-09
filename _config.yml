@@ -8,7 +8,7 @@ favicon: 'assets/images/logo.png'
 baseurl:
 google_analytics: 'UA-80286257-4'
 disqus: 'alexandrbasan-com'
-mailchimp-list: 'https://proalab.us14.list-manage.com/subscribe?u=fbc385324906d18aa67ee6a2f&id=7dcbc15bed'
+# mailchimp-list: 'https://proalab.us14.list-manage.com/subscribe?u=fbc385324906d18aa67ee6a2f&id=7dcbc15bed'
 include: ["_pages"]
 permalink: /:title/
 email: alexandr.basan@gmail.com

@@ -612,11 +612,10 @@ body.active-side {
 }
 //footer
 .footer {
-    margin-top:120px;
-    padding:30px;
+
     border-top:1px solid $gray-200;
-    font-size:15px;
-    background:#fff;
+
+    background-color: #fff;
 }
 
 //responsive tweaks
@@ -714,6 +713,9 @@ body.active-side {
         h2 {
             font-size: 1.4rem;
         }
+    }
+    .footer {
+        padding-left:0px;
     }
 }
 @media (max-width: 480px) {

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Почему мы просераем нашу жизнь?"
+title:  "Почему мы спускаем нашу жизнь в унитаз?"
 author: alex
 categories: [ Мысли ]
 image: assets/images/blog/dont_waste_your_life.jpg

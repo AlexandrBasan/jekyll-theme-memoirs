@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,7 +31,7 @@ ga('send', 'pageview');
 {% endif %}
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-<body>
+<body class="d-flex flex-column h-100">
 	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
@@ -40,7 +40,7 @@ ga('send', 'pageview');
 
 <!-- Begin Sidebar Navigation
 ================================================== -->
-
+<main class="flex-shrink-0">
 <div class="sidebar">
 </div>
 <div class="nav-icon">
@@ -49,8 +49,8 @@ ga('send', 'pageview');
 <div id="blackover-nav" class="blackover"></div>
 <nav id="menu">
     <ul>
-        <h3>Навигация</h3>
-        <li><a href="{{ site.baseurl }}/">Домой</a></li>
+        <h3>Журнал</h3>
+        <li><a href="{{ site.baseurl }}/">Главная</a></li>
         <li><a href="{{ site.baseurl }}/about">Обо Мне</a></li>
 
         <li><a href="{{ site.baseurl }}/contact">Обратная Связь</a></li>
@@ -64,6 +64,7 @@ ga('send', 'pageview');
 ================================================== -->
 
 <div class="site-content {% if page.url == '/' %} firstpage {% endif %}">
+
 
 <div class="container">
 
@@ -93,7 +94,7 @@ ga('send', 'pageview');
     <!-- Newsletter
     ================================================== -->
     <div class="newsletter text-center">
-        <span class="h4"><img src="{{ site.baseurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Я часто пишу о том что меня волнует,  <b>подпишитесь</b> чтобы не пропустить</span>
+        <span class="h4"><img src="{{ site.baseurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Я часто пишу на разные темы,  <b>подпишитесь</b> чтобы не пропустить</span>
         <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group d-inline-flex">
             <input type="email" placeholder="Ваш e-mail" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
@@ -105,11 +106,14 @@ ga('send', 'pageview');
 
 </div>
 
+</div> <!-- /.site-content -->
+</main>
+
 <!-- Begin Footer
 ================================================== -->
-<footer class="footer">
+<footer class="footer mt-auto">
     <div class="container">
-        <div class="row" style="padding-left: 80px;">
+        <div class="row">
 
             <div class="col-md-6 col-sm-12 text-center text-lg-center">
                 <ul class="footer-socials" style="padding-inline-start: 0px!important;">
@@ -140,8 +144,6 @@ ga('send', 'pageview');
 </footer>
 <!-- End Footer
 ================================================== -->
-
-</div> <!-- /.site-content -->
 
 <!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
 ================================================== -->
