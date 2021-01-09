@@ -470,6 +470,13 @@ img, img:hover {
     }
 }
 
+.tags-list {
+    max-width: 740px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: hsla(0 , 0%, 50%, 1.00);
+}
+
 .c-rating button {
     cursor:none;
 }

@@ -1,7 +1,7 @@
 <!-- Post, Page Content
 ================================================== -->
- <div class="tags-list">
-    {% if page.tagslist %}
-        {{tagslist}}
-    {% endif %}
+{% if page.tagslist %}
+<div class="tags-list">
+	{{ page.tagslist }}
 </div>
+{% endif %}
