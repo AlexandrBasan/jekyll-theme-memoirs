@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 .bigradius {
-    border-radius: 40px;
+//    border-radius: 40px;
 }
 .mb-neg-30 {
     margin-bottom:-30px;
@@ -399,8 +399,8 @@ img, img:hover {
     max-width: 740px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
+//    margin-left: auto;
+//    margin-right: auto;
 }
 .posttitle {
     font-size:50px;
@@ -410,9 +410,10 @@ img, img:hover {
 .entry-featured-image {
     width:940px;
     max-width: 100%;
-    text-align:center;
-    margin-left:auto;
-    margin-right: auto;
+//    text-align:center;
+//    margin-left:auto;
+//    margin-right: auto;
+    margin-left:20px;
     margin-top:50px;
     margin-bottom:50px;
 }
@@ -442,6 +443,9 @@ img, img:hover {
         border:2px solid darken($primary,20%);
         padding:2px;
     }
+}
+.page-wordsby {
+    color: hsla(0 , 0%, 50%, 1.00);
 }
 .article-post {
     font-size:18px;
