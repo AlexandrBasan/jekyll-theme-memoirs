@@ -286,9 +286,13 @@ img, img:hover {
             font-weight:700;
         }
     }
+    .post-name {
+        color: #777B7E;
+    }
     .post-date {
         float:right;
         margin-top: 10px;
+        color: #777B7E;
     }
     .img-thumb {
         object-fit:cover;
