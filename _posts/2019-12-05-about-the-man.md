@@ -3,7 +3,7 @@ layout: post
 title:  "О мужестве"
 author: alex
 categories: [ Мысли ]
-image: assets/images/blog/49aq600s.jpg
+image: assets/images/blog/1_Hc9ZIntSKN5rzlBCUfu6tg.jpeg
 ---
 
 Сегодня мы поговорим о трендах кино индустрии и о мужестве и о том что все должно быть в меру.
