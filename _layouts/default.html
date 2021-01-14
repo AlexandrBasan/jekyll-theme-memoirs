@@ -45,7 +45,16 @@ ga('send', 'pageview');
                 <li><a href="{{ site.baseurl }}/">Главная</a></li>
                 <li><a href="{{ site.baseurl }}/about">Обо Мне</a></li>
                 <li><a href="{{ site.baseurl }}/contact">Обратная Связь</a></li>
+                <li><a href="{{ site.baseurl }}/categories">Категории:</a></li>
+                <ul class="categories-menu">
+                    {% for category in site.categories %}
+                    <li>
+                         <a class="text-capitalize" href="{{site.baseurl}}/categories#{{ category[0] | replace: " ","-" }}">{{ category[0] }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
             </ul>
+
         </nav>
         {% include search-lunr.html %}
         <!-- End Sidebar Navigation
@@ -102,9 +111,9 @@ ga('send', 'pageview');
                         <li class='social-links'>
                             <a href='https://www.instagram.com/alexandrbasan/' target='_blank'>Instagram</a>
                         </li>
-                        <li class='social-links'>
+                        <!-- <li class='social-links'>
                             <a href='https://t.me/alexandr_basan' target='_blank'>Telegram</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <div class="col-md-6 col-sm-12 text-center text-lg-left">
