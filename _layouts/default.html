@@ -33,12 +33,11 @@ ga('send', 'pageview');
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDJ5WG6"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDJ5WG6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- defer loading of font and font awesome -->
     <noscript id="deferred-styles">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     </noscript>
     <!-- Begin Sidebar Navigation
@@ -60,30 +59,31 @@ ga('send', 'pageview');
                 <ul class="categories-menu">
                     {% for category in site.categories %}
                     <li>
-                         <a class="text-capitalize" href="{{site.baseurl}}/categories#{{ category[0] | replace: " ","-" }}">{{ category[0] }}</a>
+                        <a class="text-capitalize" href="{{site.baseurl}}/categories#{{ category[0] | replace: " ","-" }}">{{ category[0] }}</a>
                     </li>
                     {% endfor %}
                 </ul>
             </ul>
-
         </nav>
         {% include search-lunr.html %}
         <!-- End Sidebar Navigation
 ================================================== -->
         <div class="site-content {% if page.url == '/' %} firstpage {% endif %}">
             <div class="container">
-                <!-- Site Logo/Name
+                <div class="container">
+                    <!-- Site Logo/Name
     ================================================== -->
-                <a class="navbar-brand" href="{{ site.baseurl }}/">
-                    <img src="{{ site.baseurl }}/{{ site.logo-full }}" alt="{{ site.name }}">
-                </a>
-                <!-- Site Tag
+                    <a class="navbar-brand" href="{{ site.baseurl }}/">
+                        <img src="{{ site.baseurl }}/{{ site.logo-full }}" alt="{{ site.name }}">
+                    </a>
+                    <!-- Site Tag
     ================================================== -->
-                {% if page.url == '/' %}
-                <p class="sitetag">
-                    {{ site.description }}
-                </p>
-                {% endif %}
+                    {% if page.url == '/' %}
+                    <p class="sitetag">
+                        {{ site.description }}
+                    </p>
+                    {% endif %}
+                </div>
                 <!-- Content
     ================================================== -->
                 <div class="main-content">

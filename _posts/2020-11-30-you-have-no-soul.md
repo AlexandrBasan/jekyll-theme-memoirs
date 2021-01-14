@@ -3,6 +3,7 @@ layout: post
 title:  "Читая безнравственные книги"
 author: alex
 categories: [ Мысли ]
+tags: [ featured ]
 image: assets/images/blog/minimalism-book.jpg
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #dowhatyoucant #lifeisgood #алексбасан #александбасан #блог #блоггер #мысливмоейголове #жизньпрекрасна #книги #интересныекниги"
 ---

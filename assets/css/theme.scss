@@ -25,7 +25,7 @@ body, input, button, select, optgroup, textarea {
 }
 body {
     line-height:1.7;
-    background: #f4f4f4;
+    // background: #f4f4f4;
 }
 a {
     color: darken($primary, 24%);
@@ -251,6 +251,7 @@ img, img:hover {
     }
     .card {
         border:0;
+        background-color: #f4f4f4;
         &:hover {
            .card-title a {
                 background-size: 100% 100%;
@@ -628,7 +629,7 @@ body.active-side {
 //responsive tweaks
 @media (min-width: 768px) {
     .container, .container-sm, .container-md, .container-lg {
-        max-width: 80%;
+        max-width: 90%;
     }
 }
 @media (min-width: 1440px) {
@@ -774,3 +775,107 @@ img.featured-image {
     padding: 5px;
 
 }
+
+/////////////////////////////////////////////////////
+
+.sticky-top-offset {
+    top: 70px;
+}
+.spanborder {
+    border-bottom:1px solid #e8f3ec;
+    margin-bottom:2rem;
+}
+.spanborder span {
+    border-bottom:1px solid rgba(0,0,0,0.44);
+    display:inline-block;
+    padding-bottom:20px;
+    margin-bottom:-1px;
+}
+ol.list-featured {
+    counter-reset:my-awesome-counter;
+    list-style:none;
+    padding-left:0;
+}
+ol.list-featured li {
+    counter-increment:my-awesome-counter;
+    display:flex;
+    font-size:0.8rem;
+}
+ol.list-featured li:before {
+    content: "0" counter(my-awesome-counter);
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 0.5rem;
+    font-family: Arial;
+    line-height: 1;
+    opacity: .1;
+}
+
+.bg-lightblue {
+    fill: #e8f3ec !important;
+}
+
+.jumbotron {
+    background-size: cover;
+    padding: 7rem 1rem;
+}
+.mb-2rem {
+    margin-bottom: 2rem;
+}
+.justify-content-between {
+    justify-content: space-between !important;
+}
+.jumbotron {
+    background-size:cover;
+    padding:7rem 1rem;
+}
+@media (min-width:992px) {
+    .jumbotron-lg-withnav {
+        padding-bottom:calc(10rem - 69.75px);
+    }
+    .jumbotron-lg {
+        padding:10rem 0;
+    }
+    .jumbotron-xl {
+        padding:15rem 0;
+    }
+    .jumbotron-xl {
+        min-height:100vh;
+    }
+    .bottom-align-text-absolute {
+        position:absolute;
+        bottom:30px;
+        margin:auto;
+        left:0;
+        right:0;
+    }
+    .jumbotron-home h1 {
+        font-family: Georgia,Times,"Times New Roman",serif;
+        font-size: 2.4rem;
+        font-weight: 700;
+        line-height: 1.1;
+    }
+}
+.tofront {
+    position: relative;
+    z-index: 1;
+}
+
+.p-6 {
+  padding: 5rem !important; }
+
+.pt-6,
+.py-6 {
+  padding-top: 5rem !important; }
+
+.pr-6,
+.px-6 {
+  padding-right: 5rem !important; }
+
+.pb-6,
+.py-6 {
+  padding-bottom: 5rem !important; }
+
+.pl-6,
+.px-6 {
+  padding-left: 5rem !important; }
