@@ -8,9 +8,9 @@ permalink: "/categories.html"
 {% for category in site.categories %}
 <!-- <h4 class="mt-6 mb-4 mb-neg-30" ><span class="text-uppercase badge badge-primary text-small">{{ category[0] }}</span></h4> -->
 
-<h2 class="mb-4" id="{{ category[0] | replace: " ","-" }}">Больше информации на тему... {{ category[1] }}</h2>
+<h2 class="mb-4" id="{{ category[0] | replace: " ","-" }}">Больше информации на тему... {{ category[0] }}</h2>
 <div class="blog-grid-container">
-{% assign pages_list = category[2] %}
+{% assign pages_list = category[1] %}
 {% for post in pages_list %}
 {% if post.title != null %}
 {% if group == null or group == post.group %}
