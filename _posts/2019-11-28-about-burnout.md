@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "О выгорании"
+title:  "О том как не сгореть работая"
 author: alex
 categories: [ Мысли ]
 image: assets/images/blog/isaac-benhesed-249427-unsplash.jpg

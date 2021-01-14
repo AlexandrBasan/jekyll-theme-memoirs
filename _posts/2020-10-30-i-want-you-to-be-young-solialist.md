@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Социализм с раннего возраста"
+title:  "Социализм с раннего возраста. Учись быть бедным."
 author: alex
 categories: [ Мысли ]
 image: assets/images/blog/GettyImages-536196173.jpg

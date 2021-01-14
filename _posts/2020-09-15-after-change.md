@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Предприниматели и Бюрократы"
+title:  "Предприниматели и Бюрократы. Кто не поразитирует на обществе?"
 author: alex
 categories: [ Бизнес-Школа ]
 image: assets/images/blog/minimal-4093114_960_720.jpg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Новые способы работы после Карантина"
+title:  "Новые способы работы после карантина."
 author: alex
 categories: [ Бизнес-Школа ]
 image: assets/images/blog/bfb9ea8caaf523ad9043d6f9ec5d5a3b.jpg

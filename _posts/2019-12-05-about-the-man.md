@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "О мужестве"
+title:  "О мужестве и этике нового времени. Спрос на неженку."
 author: alex
 categories: [ Мысли ]
 tags: [ featured ]

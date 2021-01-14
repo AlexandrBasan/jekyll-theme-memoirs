@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Как создать кликбайт чтобы люди потеряли доверие к твоему аккаунту или новостному ресурсу?"
+title:  "Как создать кликбайт чтобы люди потеряли доверие к твоему аккаунту?"
 author: alex
 categories: [ Мысли ]
 image: assets/images/blog/minimalism-is-toxic-for-business.jpg

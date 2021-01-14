@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Читая безнравственные книги"
+title:  "Почему нужно чить только безнравственные книги?"
 author: alex
 categories: [ Мысли ]
 tags: [ featured ]

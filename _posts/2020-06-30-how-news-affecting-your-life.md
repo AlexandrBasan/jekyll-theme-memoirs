@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Как новости влияют на вашу жизнь"
+title:  "Как новости влияют на вашу жизнь?"
 author: alex
 categories: [ Мысли ]
 image: assets/images/blog/brief-news-app.jpeg
