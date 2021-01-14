@@ -4,7 +4,7 @@ title:  "Как новости влияют на вашу жизнь"
 author: alex
 categories: [ Мысли ]
 image: assets/images/blog/brief-news-app.jpeg
-taglist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #алексбасан #александрбасан #блог #блоггер #мысливмоейголове #fakenews #news #новости"
+tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #алексбасан #александрбасан #блог #блоггер #мысливмоейголове #fakenews #news #новости"
 ---
 
 Новости, новости! НОВОСТИ. Как перестать обращать внимание на информационный мусор и не переживать по поводу всего что вас окружает? 3 простых правила:

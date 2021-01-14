@@ -4,7 +4,7 @@ title:  "Что для тебя счастье?"
 author: alex
 categories: [ Мысли ]
 image: assets/images/blog/happiness.jpg
-taglist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #dowhatyoucant #алексбасан #александрбасан #блог #блоггер #мысливмоейголове"
+tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #dowhatyoucant #алексбасан #александрбасан #блог #блоггер #мысливмоейголове"
 ---
 
 Перелет с Бали в Окленд заставил меня задуматься над вопросом — что такое счастье?

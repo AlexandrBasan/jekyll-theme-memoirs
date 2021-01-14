@@ -4,7 +4,7 @@ title:  "Читая безнравственные книги"
 author: alex
 categories: [ Мысли ]
 image: assets/images/blog/minimalism-book.jpg
-taglist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #dowhatyoucant #lifeisgood #алексбасан #александбасан #блог #блоггер #мысливмоейголове #жизньпрекрасна #книги #интересныекниги"
+tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #dowhatyoucant #lifeisgood #алексбасан #александбасан #блог #блоггер #мысливмоейголове #жизньпрекрасна #книги #интересныекниги"
 ---
 
 В произведении Оскара Уайльда: "Портрет Дориана Грея", есть одна интересная цитата которая всплывает у меня в голове каждый раз когда я выбираю новую книгу.

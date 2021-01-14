@@ -4,7 +4,7 @@ title:  "Как создать кликбайт чтобы люди потеря
 author: alex
 categories: [ Мысли ]
 image: assets/images/blog/minimalism-is-toxic-for-business.jpg
-taglist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #алексбасан #александрбасан #блог #блоггер #мысливмоейголове #fakenews #news #новости #журналист #статья"
+tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #алексбасан #александрбасан #блог #блоггер #мысливмоейголове #fakenews #news #новости #журналист #статья"
 ---
 
 Как создать кликбайт чтобы люди потеряли доверие к твоему аккаунту или новостному ресурсу?
