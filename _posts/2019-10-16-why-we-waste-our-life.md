@@ -2,7 +2,7 @@
 layout: post
 title:  "Почему мы спускаем нашу жизнь в унитаз?"
 author: alex
-categories: [ Мысли ]
+categories: [ Thoughts, Мысли ]
 image: assets/images/blog/minimalist-lifestyle.jpg
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Сколько мы времени тратим на работу?"
 author: alex
-categories: [ Бизнес-Школа ]
+categories: [ Business, Бизнес-Школа ]
 image: assets/images/blog/pexels-photo.jpg
 taglist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #covid19 #алексбасан #александрбасан #блог #блоггер #мысливмоейголове #карантин #кошелекилижизнь"
 ---
