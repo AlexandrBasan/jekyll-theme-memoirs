@@ -3,7 +3,7 @@ layout: post
 title:  "Как создать кликбайт чтобы люди потеряли доверие к твоему аккаунту или новостному ресурсу?"
 author: alex
 categories: [ Мысли ]
-image: assets/images/blog/2-the-newyorktimes-fakenews-minimalist-campaign.jpg
+image: assets/images/blog/minimalism-is-toxic-for-business.jpg
 taglist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #алексбасан #александрбасан #блог #блоггер #мысливмоейголове #fakenews #news #новости #журналист #статья"
 ---
 

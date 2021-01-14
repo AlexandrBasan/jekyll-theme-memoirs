@@ -3,7 +3,7 @@ layout: post
 title:  "Новые способы работы после Карантина"
 author: alex
 categories: [ Бизнес-Школа ]
-image: assets/images/blog/how-to-set-up-and-organize-a-home-office-1600x715.jpg
+image: assets/images/blog/bfb9ea8caaf523ad9043d6f9ec5d5a3b.jpg
 taglist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #алексбасан #александрбасан #блог #блоггер #мысливмоейголове #карантин"
 ---
 
