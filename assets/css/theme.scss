@@ -761,12 +761,13 @@ body.active-side {
     font-weight: 400;
     font-size: 14px;
 }
-
 ul.categories-menu {
     border-top: solid rgba(0,0,0,0.07) 1px;
     padding: 20px 0px 0px 30px !important
 }
-
+img.featured-image {
+    max-width: 740px;
+}
 .social-links {
     list-style: none;
     display:inline;
