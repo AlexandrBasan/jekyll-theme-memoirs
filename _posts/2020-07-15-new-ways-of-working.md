@@ -2,7 +2,7 @@
 layout: post
 title:  "Новые способы работы после Карантина"
 author: alex
-categories: [ Business, Бизнес-Школа ]
+categories: [ Бизнес-Школа ]
 image: assets/images/blog/bfb9ea8caaf523ad9043d6f9ec5d5a3b.jpg
 taglist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #алексбасан #александрбасан #блог #блоггер #мысливмоейголове #карантин"
 ---

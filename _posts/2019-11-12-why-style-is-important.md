@@ -2,7 +2,7 @@
 layout: post
 title:  "Чувство стиля"
 author: alex
-categories: [ Thoughts, Мысли ]
+categories: [ Мысли ]
 image: assets/images/blog/minimalist-wardrobe.jpg
 ---
 

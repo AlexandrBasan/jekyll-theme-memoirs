@@ -2,7 +2,7 @@
 layout: post
 title:  "Предприниматели и Бюрократы"
 author: alex
-categories: [ Business, Бизнес-Школа ]
+categories: [ Бизнес-Школа ]
 image: assets/images/blog/minimal-4093114_960_720.jpg
 taglist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #newnormal #covid19 #lifeisgood #newzealand #алексбасан #александрбасан #блог #блоггер #мысливмоейголове #карантин #жизньпрекрасна #новаязеландия #аработатьнадо #аработаидет"
 ---

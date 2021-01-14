@@ -2,7 +2,7 @@
 layout: post
 title:  "О выгорании"
 author: alex
-categories: [ Thoughts, Мысли ]
+categories: [ Мысли ]
 image: assets/images/blog/isaac-benhesed-249427-unsplash.jpg
 ---
 

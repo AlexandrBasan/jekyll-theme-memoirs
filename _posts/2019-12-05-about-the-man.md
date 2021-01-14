@@ -2,7 +2,7 @@
 layout: post
 title:  "О мужестве"
 author: alex
-categories: [ Thoughts, Мысли ]
+categories: [ Мысли ]
 image: assets/images/blog/1_Hc9ZIntSKN5rzlBCUfu6tg.jpeg
 ---
 
