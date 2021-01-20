@@ -11,7 +11,7 @@
                     В <span class="catlist">
                     {% for category in post.categories %}
                     <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category }}">{{ category }}</a><span class="sep">, </span>
-                    {% assign words = post.excerpt | strip_html | number_of_words %}
+                    {% assign words = post.content | strip_html | number_of_words %}
                       {% if words < 360 %}
                         1 мин
                       {% else %}

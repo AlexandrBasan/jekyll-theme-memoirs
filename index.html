@@ -40,7 +40,7 @@ pagination:
             {{ latest_post.date | date: '%b %d, %Y' }},
         </small>
         <small class="text-muted" title="Estimated read time">
-          {% assign words = latest_post.excerpt | strip_html | number_of_words %}
+          {% assign words = latest_post.content | strip_html | number_of_words %}
           {% if words < 360 %}
             1 мин
           {% else %}
@@ -79,7 +79,7 @@ pagination:
                         {{ second_post.date | date: '%b %d, %Y' }},
                     </small>
                     <small class="text-muted" title="Estimated read time">
-                      {% assign words = second_post.excerpt | strip_html | number_of_words %}
+                      {% assign words = second_post.content | strip_html | number_of_words %}
                       {% if words < 360 %}
                         1 мин
                       {% else %}
@@ -114,7 +114,7 @@ pagination:
                         {{ third_post.date | date: '%b %d, %Y' }},
                     </small>
                     <small class="text-muted" title="Estimated read time">
-                      {% assign words = third_post.excerpt | strip_html | number_of_words %}
+                      {% assign words = third_post.content | strip_html | number_of_words %}
                       {% if words < 360 %}
                         1 мин
                       {% else %}
@@ -149,7 +149,7 @@ pagination:
                         {{ fourth_post.date | date: '%b %d, %Y' }},
                     </small>
                     <small class="text-muted" title="Estimated read time">
-                      {% assign words = fourth_post.excerpt | strip_html | number_of_words %}
+                      {% assign words = fourth_post.content | strip_html | number_of_words %}
                       {% if words < 360 %}
                         1 мин
                       {% else %}

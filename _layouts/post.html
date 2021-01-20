@@ -25,7 +25,7 @@ post_class: post-template
         {% if page.last_modified_at %}
         (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
         {% endif %}
-        {% assign words = page.excerpt | strip_html | number_of_words %}
+        {% assign words = page.content | strip_html | number_of_words %}
           {% if words < 360 %}
            | 1 мин
           {% else %}
