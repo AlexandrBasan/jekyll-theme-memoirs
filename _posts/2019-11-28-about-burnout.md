@@ -2,7 +2,7 @@
 layout: post
 title:  "О том как не сгореть работая"
 author: alex
-categories: [ Мысли ]
+categories: [ Просто о Сложном ]
 image: assets/images/blog/isaac-benhesed-249427-unsplash.jpg
 ---
 

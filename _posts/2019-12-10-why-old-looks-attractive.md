@@ -2,7 +2,7 @@
 layout: post
 title:  "Почему воспомининия о былой жизни всегда ярче?"
 author: alex
-categories: [ Мысли ]
+categories: [ Просто о Сложном ]
 image: assets/images/blog/PostRecession_Design.0.jpeg
 tagslist: "#итоги #подвожуитоги #2019 #цели2020 #ставимцели #блог #блоггер #goals #goals2020 #blog #blogger"
 ---

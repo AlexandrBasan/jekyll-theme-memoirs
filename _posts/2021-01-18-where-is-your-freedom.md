@@ -2,7 +2,8 @@
 layout: post
 title:  "Где твоя свобода?"
 author: alex
-categories: [ Мысли ]
+categories: [ Просто о Сложном ]
+tags: [ featured ]
 image: assets/images/blog/where-is-your-freedom.png
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #newnormal #lifeisgood #freedom #алексбасан #александрбасан #блог #блоггер #мысливмоейголове #жизньпрекрасна #свобода #свободамыслить #личныйопыт #простоосложном"
 ---

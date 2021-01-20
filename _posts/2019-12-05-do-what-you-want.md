@@ -2,7 +2,7 @@
 layout: post
 title:  "Делай что хочешь ТЫ!"
 author: alex
-categories: [ Мысли ]
+categories: [ Просто о Сложном ]
 tags: [ featured, sticky ]
 image: assets/images/blog/tumblr_no7oycg2eT1qddxjwo3_1280.jpg
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #dowhatyoucant  #triumph #triumphstreettriple #алексбасан #александбасан #блог #блоггер #мысливмоейголове #байк #триумф"

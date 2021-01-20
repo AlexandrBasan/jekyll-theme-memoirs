@@ -2,7 +2,7 @@
 layout: post
 title:  "Почему нужно читать только безнравственные книги?"
 author: alex
-categories: [ Мысли ]
+categories: [ Просто о Сложном ]
 tags: [ featured ]
 image: assets/images/blog/minimalism-book.jpg
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #dowhatyoucant #lifeisgood #алексбасан #александбасан #блог #блоггер #мысливмоейголове #жизньпрекрасна #книги #интересныекниги"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Социализм с раннего возраста. Учись быть бедным."
 author: alex
-categories: [ Мысли ]
+categories: [ Просто о Сложном ]
 image: assets/images/blog/GettyImages-536196173.jpg
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #socialism #lifeisgood #newzealand #алексбасан #александрбасан #блог #блоггер #мысливмоейголове #жизньпрекрасна #новаязеландия #социализм"
 ---

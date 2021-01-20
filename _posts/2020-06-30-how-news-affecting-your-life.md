@@ -2,7 +2,7 @@
 layout: post
 title:  "Как новости влияют на вашу жизнь?"
 author: alex
-categories: [ Мысли ]
+categories: [ Просто о Сложном ]
 image: assets/images/blog/brief-news-app.jpeg
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #алексбасан #александрбасан #блог #блоггер #мысливмоейголове #fakenews #news #новости"
 ---

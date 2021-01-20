@@ -2,7 +2,7 @@
 layout: post
 title:  "О мужестве и этике нового времени. Спрос на неженку."
 author: alex
-categories: [ Мысли ]
+categories: [ Просто о Сложном ]
 tags: [ featured ]
 image: assets/images/blog/1_Hc9ZIntSKN5rzlBCUfu6tg.jpeg
 ---
