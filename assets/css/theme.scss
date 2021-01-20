@@ -119,7 +119,7 @@ img, img:hover {
 .navbar-brand img {
     max-height:80px;
     margin-bottom:40px;
-    margin-top:40px;
+    //margin-top:40px;
 }
 .sidebar {
     position: fixed;
@@ -482,6 +482,7 @@ img, img:hover {
     padding-left: 20px;
     padding-right: 20px;
     color: hsla(0 , 0%, 50%, 1.00);
+    font-size: 14px;
 }
 
 .c-rating button {
@@ -769,6 +770,7 @@ ul.categories-menu {
 }
 img.featured-image {
     max-width: 740px;
+    max-height: 400px;
 }
 .social-links {
     list-style: none;
