@@ -10,6 +10,7 @@
     <link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+    <link rel="alternate" type="application/atom+xml" title="{{site.name}}" href="/feed.xml">
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -56,6 +57,7 @@ ga('send', 'pageview');
                     <li><a href="{{ site.baseurl }}/">Главная</a></li>
                     <li><a href="{{ site.baseurl }}/about">Обо Мне</a></li>
                     <li><a href="{{ site.baseurl }}/contact">Обратная Связь</a></li>
+                    <li><a href="/feed.xml" target="_blank">RSS</a></li>
                     <li><a href="{{ site.baseurl }}/categories">Категории:</a></li>
                     <ul class="categories-menu">
                         {% for category in site.categories %}

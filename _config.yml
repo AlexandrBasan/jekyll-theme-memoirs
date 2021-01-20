@@ -32,6 +32,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-figure
+  - jekyll-feed
 
 # Archives
 jekyll-archives:
@@ -69,5 +70,7 @@ authorbox: "disabled"
 sass:
   sass_dir: _sass
   style: compressed
+
+# Jekyll-Feed
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
