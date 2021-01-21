@@ -2,7 +2,7 @@
 layout: post
 title:  "Почему вы не сможете стать преждним после возвращения из другой страны?"
 author: alex
-categories: [ Просто о Сложном ]
+categories: [ Просто о Сложном, Путешествия ]
 image: assets/images/blog/best-luggage-australia.jpg
 ---
 
