@@ -941,3 +941,7 @@ ol.list-featured li:before {
         padding-bottom: 45px;
     }
 }
+
+.catlist .sep:last-child {
+    display: none;
+}

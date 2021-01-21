@@ -3,6 +3,7 @@ layout: post
 title:  "Совет тем кто строит карьеру."
 author: alex
 categories: [ Бизнес-Школа ]
+tags: [ Карьера ]
 image: assets/images/blog/minimalist-office.jpg
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #newnormal #lifeisgood #freedom #алексбасан #александрбасан #блог #блоггер #бизнес #какзарабатывать #сторимбизнес #строимкарьеру #личныйопыт #простоосложном #карьера"
 ---

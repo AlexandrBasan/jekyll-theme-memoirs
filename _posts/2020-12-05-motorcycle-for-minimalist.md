@@ -3,7 +3,7 @@ layout: post
 title:  "Почему мотоцикл это идеальный транспорт для минималиста?"
 author: alex
 categories: [ Минимализм, Путешествия ]
-tags: [ featured ]
+tags: [ featured, Книги, Путешествия ]
 image: assets/images/blog/tumblr_no7oycg2eT1qddxjwo2_1280.jpg
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #dowhatyoucant  #triumph #triumphstreettriple #minimalism #lifewithonebag #onebagchallange #алексбасан #александрбасан #блог #блоггер #мысливмоейголове #байк #триумф #минимализм #жизньсоднимрюкзаком"
 ---

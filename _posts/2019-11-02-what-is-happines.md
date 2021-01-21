@@ -3,6 +3,7 @@ layout: post
 title:  "Что для тебя счастье?"
 author: alex
 categories: [ Просто о Сложном ]
+tags: [Счастье, Книги]
 image: assets/images/blog/happiness.jpg
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #dowhatyoucant #алексбасан #александрбасан #блог #блоггер #мысливмоейголове"
 ---

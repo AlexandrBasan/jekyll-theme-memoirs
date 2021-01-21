@@ -3,6 +3,7 @@ layout: post
 title:  "Как создать кликбайт чтобы люди потеряли доверие к твоему аккаунту?"
 author: alex
 categories: [ Просто о Сложном ]
+tags: [Счастье]
 image: assets/images/blog/minimalism-is-toxic-for-business.jpg
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #алексбасан #александрбасан #блог #блоггер #мысливмоейголове #fakenews #news #новости #журналист #статья"
 ---
