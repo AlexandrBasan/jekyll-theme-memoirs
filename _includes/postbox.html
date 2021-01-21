@@ -43,7 +43,7 @@
                 <!-- Categories -->
                 {% assign sortedCategories = post.categories | sort %}
                 {% for category in sortedCategories %}
-                <a class="smoothscroll main-tags text-capitalize" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
+                <a class="smoothscroll main-tags text-capitalize" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">"{{ category }}"</a>
                 {% endfor %}
                 <!-- <span class="post-date">{{ post.date | date_to_string }}</span> -->
                 </span>
