@@ -924,7 +924,7 @@ ol.list-featured li:before {
     }
 
     .newsletter {
-        margin-top: 0px;
+        margin-top: 40px;
     }
 
     .newsletter img.newsletter-logo {
@@ -957,3 +957,12 @@ ol.list-featured li:before {
     //text-decoration: none;
     color: $red;
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    min-width: 5px!important;
+}
+
