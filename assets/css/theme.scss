@@ -39,7 +39,8 @@ h1,h2,h3,h4,h5,h6 {
     font-weight:700;
 }
 .site-content {
-    padding-top:50px;
+    //padding-top:50px;
+    padding-top:40px;
 }
 .sitetag {
     font-weight:700;
@@ -755,6 +756,7 @@ body.active-side {
         }
         .form-control {
             height:35px;
+            margin-top: -5px;
         }
     }
 }
@@ -931,6 +933,9 @@ ol.list-featured li:before {
     .form-control {
         border: 0px solid #ced4da;
         border-bottom: 1px solid #ced4da;
+    }
+    .hamburger-bar {
+        //margin-top: -30px;
     }
 }
 
