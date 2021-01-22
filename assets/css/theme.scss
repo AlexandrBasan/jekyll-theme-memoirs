@@ -408,8 +408,8 @@ img, img:hover {
     max-width: 740px;
     padding-left: 20px;
     padding-right: 20px;
-//    margin-left: auto;
-//    margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .posttitle {
     font-size:50px;
@@ -419,10 +419,10 @@ img, img:hover {
 .entry-featured-image {
     width:940px;
     max-width: 100%;
-//    text-align:center;
-//    margin-left:auto;
-//    margin-right: auto;
-    margin-left:20px;
+    text-align:center;
+    margin-left:auto;
+    margin-right: auto;
+    //margin-left:20px;
     margin-top:50px;
     margin-bottom:50px;
 }
@@ -485,6 +485,8 @@ img, img:hover {
     padding-right: 20px;
     color: hsla(0 , 0%, 50%, 1.00);
     font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .c-rating button {
@@ -760,6 +762,10 @@ body.active-side {
             margin-top: -5px;
         }
     }
+
+    .related-posts {
+        margin-top: 40px;
+    }
 }
 
 .main-tags {
@@ -772,7 +778,7 @@ ul.categories-menu {
     padding: 20px 0px 0px 30px !important
 }
 img.featured-image {
-    max-width: 740px;
+    max-width: 100%;
     max-height: 400px;
 }
 .social-links {
