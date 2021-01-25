@@ -3,7 +3,7 @@ layout: post
 title:  "Почему вы мало зарабатываете?"
 author: alex
 categories: [ Бизнес-Школа ]
-tags: [ Карьера ]
+tags: [ sticky, Карьера ]
 image: assets/images/blog/minimalism-dollar.jpg
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #newnormal #lifeisgood #freedom #алексбасан #александрбасан #блог #блоггер #бизнес #какзарабатывать #сторимбизнес #строимкарьеру #личныйопыт #простоосложном"
 ---

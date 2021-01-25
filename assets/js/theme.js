@@ -31,6 +31,10 @@ jQuery(document).ready(function($){
       }
     });
 
+    // style an image in blog post. allign center
+    $('.article-post p:has(img)').addClass('BlogImg');
+    //.css('text-align', 'center')
+
 
 	// toggle comments
     $('.show-comments').on('click', function() {

@@ -964,6 +964,15 @@ ol.list-featured li:before {
     color: $red;
 }
 
+.article-post p img {
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.article-post p.BlogImg {
+    text-align:center;
+}
+
 .back-to-top {
     position: fixed;
     bottom: 25px;
