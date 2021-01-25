@@ -2,7 +2,7 @@
 layout: post
 title:  "Почему я больше не сижу в социальных сетях?"
 author: alex
-categories: [ Просто О Сложном ]
+categories: [ Просто о Сложном ]
 tags: [ featured, Соцсеть, Минимализм, Инстаграм ]
 image: assets/images/blog/social-networks.jpeg
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #newnormal #lifeisgood #freedom #алексбасан #александрбасан #блог #блоггер #социальнаясеть #соцсетьзависимость #зависимость #личныйопыт #простоосложном"

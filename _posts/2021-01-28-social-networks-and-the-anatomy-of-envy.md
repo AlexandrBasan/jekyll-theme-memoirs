@@ -2,7 +2,7 @@
 layout: post
 title:  "Анатомия зависти. Почему социальные сети это источник бесконечной зависти?"
 author: alex
-categories: [ Просто О Сложном ]
+categories: [ Просто о Сложном ]
 tags: [ Соцсеть, Зависть ]
 image: assets/images/blog/anatomy-of-envy.jpg
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #newnormal #lifeisgood #freedom #алексбасан #александрбасан #блог #блоггер #социальнаясеть #соцсетьзависимость #зависимость #личныйопыт #простоосложном"
