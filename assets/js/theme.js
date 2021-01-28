@@ -32,7 +32,7 @@ jQuery(document).ready(function($){
     });
 
     // style an image in blog post. allign center
-    $('.article-post p:has(img)').addClass('BlogImg');
+    $('.article-post p:has(img.galleryThumb)').addClass('BlogImg');
     //.css('text-align', 'center')
 
 
