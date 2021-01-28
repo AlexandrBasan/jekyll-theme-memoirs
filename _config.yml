@@ -12,6 +12,7 @@ mailchimp-list: 'https://proalab.us14.list-manage.com/subscribe?u=fbc385324906d1
 include: ["_pages"]
 permalink: /:title/
 email: alexandr.basan@gmail.com
+future: false
 
 # Authors
 authors:
