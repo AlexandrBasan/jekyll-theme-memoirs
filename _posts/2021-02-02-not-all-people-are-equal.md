@@ -2,7 +2,8 @@
 layout: post
 title:  "В мире не существует равенства."
 author: alex
-categories: [ Просто о Сложном ]
+categories: [ Просто о Сложном, Подкаст ]
+tags: [Подкаст, 796A67]
 image: assets/images/blog/social-equality.jpg
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #newnormal #lifeisgood #freedom #алексбасан #александрбасан #блог #блоггер #равенство #простоосложном #какработаетмир #какустроенмир"
 ---
