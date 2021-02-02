@@ -768,6 +768,15 @@ body.active-side {
     .related-posts {
         margin-top: 40px;
     }
+
+    .share {
+        left: 0px!important;
+    }
+    .comments {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .main-tags {
@@ -868,6 +877,17 @@ ol.list-featured li:before {
         font-size: 2.4rem;
         font-weight: 700;
         line-height: 1.1;
+    }
+    .a2a_default_style a {
+        display: block !important;
+        float: none !important;
+    }
+    .a2a_default_style .a2a_svg {
+        display: block !important;
+        float: none !important;
+        margin-top: .5rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .tofront {
@@ -993,6 +1013,8 @@ img.signature {
 
 .d-inline-block {
     display: inline-block !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .a2a_svg, .a2a_count { border-radius: 0 !important; }
