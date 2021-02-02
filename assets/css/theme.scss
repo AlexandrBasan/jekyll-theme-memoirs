@@ -765,6 +765,11 @@ body.active-side {
         }
     }
 
+    .newsletter {
+        margin-top: 30px;
+        padding-bottom: 45px;
+    }
+
     .related-posts {
         margin-top: 40px;
     }
@@ -776,6 +781,12 @@ body.active-side {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    p.excerpt.main-loop {
+        display: none;
+    }
+    img.image.mian-loop-card {
+        max-width: 80px;
     }
 }
 
@@ -968,14 +979,6 @@ ol.list-featured li:before {
     }
 }
 
-@media (max-width:375px) {
-  /* CSS that should be displayed if width is equal to or less than 800px goes here */
-    .newsletter {
-        margin-top: 30px;
-        padding-bottom: 45px;
-    }
-}
-
 .catlist .sep:last-child {
     display: none;
 }
@@ -1018,3 +1021,8 @@ img.signature {
 }
 
 .a2a_svg, .a2a_count { border-radius: 0 !important; }
+
+img.image.mian-loop-card {
+    height: 100px;
+    object-fit: cover;
+}
