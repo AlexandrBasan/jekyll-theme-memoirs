@@ -224,7 +224,7 @@ img, img:hover {
                 padding: 2vh 0px 2vh 0px;
                 line-height: 20px;
                 text-decoration: none;
-                color: #8E9AA7;
+                color: #808080;
                 font-weight: 400;
                 font-size: 18px;
                 position: relative;
@@ -991,3 +991,8 @@ img.signature {
     max-width: 325px!important;
 }
 
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.a2a_svg, .a2a_count { border-radius: 0 !important; }
