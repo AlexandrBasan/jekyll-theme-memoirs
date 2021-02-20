@@ -1,0 +1,17 @@
+{% if page.podcast %}
+<!-- <p><b>Вы можете прослушать эпизод подкаста на эту тему:</b></p> -->
+<div class="article-post-podcast">
+	<iframe src="{{ page.podcast }}" max-height="105px" width="100%" frameborder="0" scrolling="no"></iframe>
+</div>
+<ul class="subscribe-links-podcast">
+    <li>
+        <a href="https://geo.itunes.apple.com/podcast/us/id1247652431?mt=2&amp;at=1010lbVy&amp;ct=mozilla_homepage" rel="external" data-link-type="subscribe" data-service="iTunes" class="subscribe-link-apple" target='_blank'><img src="/assets/images/subscribe-badge-apple.svg" alt="Subscribe on Apple Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80OWVlNjg4Yy9wb2RjYXN0L3Jzcw==" rel="external" data-link-type="subscribe" data-service="Google" class="subscribe-link-google" target='_blank'><img src="/assets/images/subscribe-badge-google.svg" alt="Subscribe on Google Podcasts"></a>
+    </li>
+    <li>
+        <a href="https://open.spotify.com/show/58ckZTCdyXGuDKQ109SmLk" rel="external" data-link-type="subscribe" data-service="Spotify" class="subscribe-link-spotify" target='_blank'><img src="/assets/images/subscribe-badge-spotify-2.svg" alt="Subscribe on Spotify"></a>
+    </li>
+</ul>
+{% endif %}

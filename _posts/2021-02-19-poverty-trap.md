@@ -2,8 +2,9 @@
 layout: post
 title:  "Ловушка бедности."
 author: alex
-categories: [ Просто о Сложном, Бизнес-Школа, Финансовая Независимость ]
+categories: [ Просто о Сложном, Бизнес-Школа, Финансовая Независимость, Подкаст ]
 image: assets/images/blog/life-choice.png
+podcast: https://anchor.fm/alexandr-basan/embed/episodes/1---eqlnhg
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #newnormal #lifeisgood #freedom #life #lifechoice #алексбасан #александрбасан #блог #блоггер #простоосложном #какработаетмир #какустроенмир #выбор #жизненныйвыбор #жизнь #бизнес #какзарабатывать #сторимбизнес #строимкарьеру #личныйопыт #простоосложном #карьера"
 ---
 
