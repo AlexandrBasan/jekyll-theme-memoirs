@@ -788,6 +788,12 @@ body.active-side {
     img.image.mian-loop-card {
         max-width: 80px;
     }
+    .subscribe-links-podcast img {
+        height: 22px!important;
+    }
+    .post-categories {
+        display: inline-block!important;
+    }
 }
 
 .main-tags {
@@ -1000,6 +1006,24 @@ ol.list-featured li:before {
 
 .article-post p.podcast {
     text-align:center;
+}
+
+.article-post-podcast {
+    position: relative;
+    z-index: 0;
+    width: 740px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+.post-categories {
+    display: flex;
 }
 
 .subscribe-links-podcast {
