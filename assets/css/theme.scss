@@ -1012,6 +1012,20 @@ ol.list-featured li:before {
     display: flex;
 }
 
+.article-post-podcast {
+    position: relative;
+    z-index: 0;
+    width: 740px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
 .subscribe-links-podcast {
     position: relative;
     z-index: 2;
