@@ -4,7 +4,7 @@ title:  "Наш очень сложный мир."
 author: alex
 categories: [ Просто о Сложном, Подкаст ]
 image: assets/images/blog/speed-lights-road.jpg
-podcast:
+podcast: https://anchor.fm/alexandr-basan/embed/episodes/2---eqv9sv
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #newnormal #lifeisgood #freedom #life #lifechoice #алексбасан #александрбасан #блог #блоггер #простоосложном #какработаетмир #какустроенмир #выбор #жизненныйвыбор #жизнь #личныйопыт #мир #нашмир"
 ---
 
