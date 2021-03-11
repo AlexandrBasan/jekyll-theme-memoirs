@@ -3,7 +3,7 @@ layout: post
 title:  "Почему мы смотрим спорт?"
 author: alex
 categories: [ Просто о Сложном ]
-image: assets/images/blog/sports-gear.jpg
+image: assets/images/blog/sport-collage-boxing-soccer-american-football-basketball-baseball-ice-hockey-etc-multi-professional-tennis-l-bascketball-players-93401905.jpg
 podcast:
 tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #newnormal #lifeisgood #freedom #life #lifechoice #sport #dreams #алексбасан #александрбасан #блог #блоггер #простоосложном #какработаетмир #какустроенмир #выбор #жизненныйвыбор #жизнь #личныйопыт #мир #нашмир #мечты #спорт #футбол #матч"
 ---
