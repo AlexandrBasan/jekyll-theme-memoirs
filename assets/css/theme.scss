@@ -810,6 +810,9 @@ body.active-side {
     .navbar-brand img {
         margin-bottom: 20px;
     }
+    .podcast-main ul.subscribe-links-podcast {
+        margin-top: -38px!important;
+    }
 }
 
 .main-tags {
@@ -1040,6 +1043,10 @@ ol.list-featured li:before {
     margin-right: auto;
     margin-bottom: -20px;
     margin-top: -20px;
+}
+
+.podcast-main ul.subscribe-links-podcast {
+    margin-top: -80px;
 }
 
 .subscribe-links-podcast {
