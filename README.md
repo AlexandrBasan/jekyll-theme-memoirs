@@ -5,3 +5,7 @@
 [![Build Status](https://travis-ci.org/AlexandrBasan/jekyll-theme-memoirs.svg?branch=master)](https://travis-ci.org/AlexandrBasan/jekyll-theme-memoirs)
 
 ![memoirs](https://bootstrapstarter.com/assets/img/themes/memoirs-jekyll.jpg)
+
+_____________
+
+https://bootstrapstarter.com/jekyll-theme-memoirs/
