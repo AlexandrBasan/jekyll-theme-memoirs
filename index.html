@@ -21,7 +21,7 @@ pagination:
     <div class="card border-0 mb-4 box-shadow">
     <a href="{{site.baseurl}}{{latest_post.url}}">
     <!-- <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover; background-position: center;    background-repeat: no-repeat;"></div> -->
-    <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 350px;   background-position: center;    background-repeat: no-repeat;"></div>
+    <!-- <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 350px;   background-position: center;    background-repeat: no-repeat;"></div> -->
     </a>
     <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
     <h2 class="h4 font-weight-bold">
@@ -29,7 +29,7 @@ pagination:
     </h2>
     <p class="excerpt">
         <!-- {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 145 }} -->
-        {{ latest_post.content  | truncate: 1100 }}  <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}"> "читать дальше"</a>
+        {{ latest_post.content  | truncate: 850 }}  <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}"> "читать дальше"</a>
     </p>
     <div>
         <small class="d-block text-muted">
@@ -63,7 +63,7 @@ pagination:
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
 {% for post in site.posts %}
 {% if post.tags contains "sticky" %}
-<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
+<!-- <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
     <div class="pl-4 pr-0 h-100 tofront">
         <div class="row justify-content-between">
             <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
@@ -77,7 +77,7 @@ pagination:
             </div>
         </div>
     </div>
-</div>
+</div> -->
 {% endif %}
 {% endfor %}
 
@@ -95,7 +95,7 @@ pagination:
 
     <div class="col-md-8 main-loop">
 
-        <h4 class="font-weight-bold spanborder"><span>Лайф Сториз</span></h4>
+        <!-- <h4 class="font-weight-bold spanborder"><span>Лайф Сториз</span></h4> -->
 
 
         {% for post in paginator.posts %}
