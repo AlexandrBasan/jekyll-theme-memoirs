@@ -383,7 +383,7 @@ img, img:hover {
     h4 {
         line-height:1.3;
     }
-    margin-top:100px;
+    // margin-top:100px;
     padding-bottom: 40px;
     img.newsletter-logo {
         max-height:70px;
@@ -424,6 +424,9 @@ img, img:hover {
 .article-post {
     padding-bottom: 50px;
     border-bottom: 1px solid #f3f3f3;
+}
+.bottompagination {
+    padding-top: 20px;
 }
 .posttitle {
     margin-top: 1em;
@@ -791,7 +794,7 @@ body.active-side {
         left: 0px!important;
     }
     .comments {
-        display: flex;
+        // display: flex;
         align-items: center;
         justify-content: center;
     }
