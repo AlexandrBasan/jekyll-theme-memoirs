@@ -31,4 +31,3 @@ tagslist: "#alexbasan #alexandrbasan #blog #blogger #thoughts #newnormal #lifeis
 
 
 ![image]({{ site.baseurl }}/assets/images/blog/thumb/get-well-soon-you-have-15-seconds-to-comply.jpeg){: .galleryThumb}
-

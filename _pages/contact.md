@@ -6,7 +6,7 @@ comments: false
 ---
 
 <form action="https://formspree.io/{{site.email}}" method="POST">
-<p class="mb-4">Хотите поговорить со мной? Я люблю общатся с людьми и с радостью отвечу вам как только смогу!</p>
+<p class="mb-4">Хотите поговорить со мной? Напишите</p>
 <div class="form-group row">
 <div class="col-md-6">
 <input class="form-control" type="text" name="name" placeholder="Имя*" required>
