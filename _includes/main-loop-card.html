@@ -9,7 +9,9 @@
 		<div class="article-post">
 				{{ post.content  | strip_html | truncate: 1024}}
 
-				<p style="margin-bottom: 0px;"><a class="text-dark" href="{{site.baseurl}}{{post.url}}" style="text-decoration: underline; font-style: italic;"> "читать дальше"</a></p>
+				<p style="margin-bottom: 0px;">
+					<a class="text-dark" href="{{site.baseurl}}{{post.url}}" style="text-decoration: underline; font-style: italic;"> читать дальше <img src="assets/images/arrow-right.svg" title="read more" width="18" height="18"></a>
+				</p>
 			<!-- Post Categories -->
 			<!-- <small class="d-block text-muted">
 				В <span class="catlist">
