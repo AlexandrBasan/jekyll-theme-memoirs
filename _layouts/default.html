@@ -12,39 +12,48 @@
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
     <link rel="alternate" type="application/atom+xml" title="{{site.name}}" href="/feed.xml">
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KDJ5WG6');</script>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KDJ5WG6');</script>
     <!-- End Google Tag Manager -->
 </head>
 {% if jekyll.environment == 'production' %}
 <!-- change your GA id in _config.yml -->
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', '{{site.google_analytics}}', 'auto');
-ga('send', 'pageview');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '{{site.google_analytics}}', 'auto');
+    ga('send', 'pageview');
 </script>
 {% endif %}
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDJ5WG6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDJ5WG6" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- defer loading of font and font awesome -->
     <noscript id="deferred-styles">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet">
         <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet"> -->
         <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+            integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     </noscript>
     <!-- Begin Sidebar Navigation
 ================================================== -->
@@ -59,8 +68,8 @@ ga('send', 'pageview');
             <nav id="menu">
                 <ul>
                     <h3>Блог</h3>
-                    <li><a href="{{ site.baseurl }}/">Главная</a></li>
-                    <li><a href="{{ site.baseurl }}/about">Обо Мне</a></li>
+                    <li><a href="{{ site.baseurl }}/">Main (Главная)</a></li>
+                    <li><a href="{{ site.baseurl }}/about">About (Обо Мне)</a></li>
                     <!-- <li><a href="{{ site.baseurl }}/contact">Обратная Связь</a></li> -->
                     <!-- <li><a href="{{ site.baseurl }}/categories">Категории:</a></li>
                     <ul class="categories-menu">
@@ -71,8 +80,14 @@ ga('send', 'pageview');
                         {% endfor %}
                     </ul> -->
                     <li><a href="/feed.xml" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
-                    </a></li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-rss">
+                                <path d="M4 11a9 9 0 0 1 9 9"></path>
+                                <path d="M4 4a16 16 0 0 1 16 16"></path>
+                                <circle cx="5" cy="19" r="1"></circle>
+                            </svg>
+                        </a></li>
                 </ul>
             </nav>
             {% include search-lunr.html %}
@@ -82,18 +97,18 @@ ga('send', 'pageview');
                 <div class="container">
                     <!-- Site Logo/Name
     ================================================== -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container d-flex flex-column align-items-center">
-          <a class="navbar-brand mx-auto" href="{{ site.baseurl }}/">
-            <img src="{{ site.baseurl }}/{{ site.logo-full }}" alt="{{ site.name }}">
-          </a>
-          {% if page.url == '/' %}
-          <p class="sitetag text-center mt-2">
-            {{ site.description }}
-          </p>
-          {% endif %}
-        </div>
-      </nav>
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container d-flex flex-column align-items-center">
+                            <a class="navbar-brand mx-auto" href="{{ site.baseurl }}/">
+                                <img src="{{ site.baseurl }}/{{ site.logo-full }}" alt="{{ site.name }}">
+                            </a>
+                            {% if page.url == '/' %}
+                            <p class="sitetag text-center mt-2">
+                                {{ site.description }}
+                            </p>
+                            {% endif %}
+                        </div>
+                    </nav>
                     <!-- Content
     ================================================== -->
                     <div class="main-content">
@@ -116,8 +131,8 @@ ga('send', 'pageview');
                     </div>
 
                     <div class="col-md-12 podcast-main">
-                    <!-- Featured Podcast Links -->
-                    <!-- {% include featured-podcast-links.html %} -->
+                        <!-- Featured Podcast Links -->
+                        <!-- {% include featured-podcast-links.html %} -->
                     </div>
                     {% endif %}
                 </div>

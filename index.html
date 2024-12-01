@@ -2,27 +2,27 @@
 title: Home
 layout: default
 pagination:
-    enabled: true
+enabled: true
 ---
 
 <div class="container">
 
-{% if page.url == "/" %}
+    {% if page.url == "/" %}
 
-<!-- Begin post excerpts, let's highlight the first 4 posts on top -->
-<div class="row remove-site-content-margin">
+    <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
+    <div class="row remove-site-content-margin">
 
-    {% include most-recent-post.html %}
+        {% include most-recent-post.html %}
 
-    <!-- Latest Stories -->
-    <!-- include latest-stories.html -->
+        <!-- Latest Stories -->
+        <!-- include latest-stories.html -->
 
-</div>
+    </div>
 
-<!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
-{% for post in site.posts %}
-{% if post.tags contains "sticky" %}
-<!-- <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
+    <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
+    {% for post in site.posts %}
+    {% if post.tags contains "sticky" %}
+    <!-- <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
     <div class="pl-4 pr-0 h-100 tofront">
         <div class="row justify-content-between">
             <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
@@ -37,11 +37,11 @@ pagination:
         </div>
     </div>
 </div> -->
-{% endif %}
-{% endfor %}
+    {% endif %}
+    {% endfor %}
 
 
-{% endif %} <!--endif page url is / -->
+    {% endif %} <!--endif page url is / -->
 
     <!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
 
@@ -52,9 +52,9 @@ pagination:
             <!-- <h4 class="font-weight-bold spanborder"><span>Лайф Сториз</span></h4> -->
 
             {% for post in paginator.posts offset:1 %}
-                {% include main-loop-card.html %}
+            {% include main-loop-card.html %}
             {% endfor %}
-            
+
         </div>
 
         <div class="bottompagination">
@@ -64,7 +64,7 @@ pagination:
         </div>
 
         <!-- <div class="col-md-4"> -->
-            <!--  include sidebar-featured.html -->
+        <!--  include sidebar-featured.html -->
         <!-- </div> -->
 
     </div>
