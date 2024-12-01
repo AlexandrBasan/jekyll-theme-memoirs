@@ -43,17 +43,19 @@ pagination:
 
 {% endif %} <!--endif page url is / -->
 
-<!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
+    <!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
 
-<div class="">
+    <div class="">
 
-    <div class="row remove-site-content-margin">
+        <div class="row remove-site-content-margin">
 
-        <!-- <h4 class="font-weight-bold spanborder"><span>Лайф Сториз</span></h4> -->
+            <!-- <h4 class="font-weight-bold spanborder"><span>Лайф Сториз</span></h4> -->
 
-        {% for post in paginator.posts offset:1 %}
-            {% include main-loop-card.html %}
-        {% endfor %}
+            {% for post in paginator.posts offset:1 %}
+                {% include main-loop-card.html %}
+            {% endfor %}
+            
+        </div>
 
         <div class="bottompagination">
             <span class="navigation" role="navigation">
@@ -61,12 +63,10 @@ pagination:
             </span>
         </div>
 
+        <!-- <div class="col-md-4"> -->
+            <!--  include sidebar-featured.html -->
+        <!-- </div> -->
+
     </div>
-
-    <!-- <div class="col-md-4"> -->
-        <!--  include sidebar-featured.html -->
-    <!-- </div> -->
-
-</div>
 
 </div>
