@@ -1,38 +1,42 @@
-<div class="mb-5 d-flex justify-content-between main-loop-card">
-<div class="pr-3">
-	<h2 class="mb-1 h2 font-weight-bold main-loop-card-title">
-	<a class="text-dark" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
-	</h2>
-	<p class="excerpt main-loop">
-	   <!-- {{ post.excerpt  | strip_html | strip_newlines | truncate: 1024}} -->
-	   {{ post.content  | strip_html | truncate: 1024}}
-	</p>
-	<p style="margin-bottom: 0px;"><a class="text-dark" href="{{site.baseurl}}{{post.url}}" style="text-decoration: underline; font-style: italic;"> "читать дальше"</a></p>
-	<!-- Post Categories -->
-	<!-- <small class="d-block text-muted">
-		В <span class="catlist">
-		{% for category in post.categories %}
-		<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category }}">"{{ category }}"</a><span class="sep">, </span>
-		{% endfor %}
-		</span>
-	</small> -->
-	<small class="text-muted">
-		{{ post.date | date: '%b %d, %Y' }},
-	</small>
-	<small class="text-muted" title="Estimated read time">
-      {% assign words = post.content | strip_html | number_of_words %}
-      {% if words < 360 %}
-        1 мин
-      {% else %}
-        {{ words | divided_by:180 }} мин
-      {% endif %}
-     </small>
-</div>
-{% if post.image %}
-	<!-- <div class="col-md-3 pr-0 mb-4 text-right">
-	<a href="{{site.baseurl}}{{post.url}}">
-	<img class="image mian-loop-card" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}">
-	</a>
-	</div> -->
-{% endif %}
+<div class="col-md-12">
+	<div class="pr-3">
+		<div class="entry-header">
+			<!-- Post Title -->
+			<h2 class="posttitle h2"><a class="text-dark" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+		</div>
+		
+		<!-- {{ post.excerpt  | strip_html | strip_newlines | truncate: 1024}} -->
+		<div class="article-post">
+				{{ post.content  | strip_html | truncate: 1024}}
+
+				<p style="margin-bottom: 0px;"><a class="text-dark" href="{{site.baseurl}}{{post.url}}" style="text-decoration: underline; font-style: italic;"> "читать дальше"</a></p>
+			<!-- Post Categories -->
+			<!-- <small class="d-block text-muted">
+				В <span class="catlist">
+				{% for category in post.categories %}
+				<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category }}">"{{ category }}"</a><span class="sep">, </span>
+				{% endfor %}
+				</span>
+			</small> -->
+			<small class="text-muted">
+				{{ post.date | date: '%b %d, %Y' }},
+			</small>
+			<small class="text-muted" title="Estimated read time">
+			{% assign words = post.content | strip_html | number_of_words %}
+			{% if words < 360 %}
+				1 мин
+			{% else %}
+				{{ words | divided_by:180 }} мин
+			{% endif %}
+			</small>
+		</div>
+		
+	</div>
+	{% if post.image %}
+		<!-- <div class="col-md-3 pr-0 mb-4 text-right">
+		<a href="{{site.baseurl}}{{post.url}}">
+		<img class="image mian-loop-card" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}">
+		</a>
+		</div> -->
+	{% endif %}
 </div>

@@ -82,16 +82,18 @@ ga('send', 'pageview');
                 <div class="container">
                     <!-- Site Logo/Name
     ================================================== -->
-                    <a class="navbar-brand" href="{{ site.baseurl }}/">
-                        <img src="{{ site.baseurl }}/{{ site.logo-full }}" alt="{{ site.name }}">
-                    </a>
-                    <!-- Site Tag
-    ================================================== -->
-                    {% if page.url == '/' %}
-                    <p class="sitetag">
-                        {{ site.description }}
-                    </p>
-                    {% endif %}
+    <nav class="navbar navbar-expand-lg">
+        <div class="container d-flex flex-column align-items-center">
+          <a class="navbar-brand mx-auto" href="{{ site.baseurl }}/">
+            <img src="{{ site.baseurl }}/{{ site.logo-full }}" alt="{{ site.name }}">
+          </a>
+          {% if page.url == '/' %}
+          <p class="sitetag text-center mt-2">
+            {{ site.description }}
+          </p>
+          {% endif %}
+        </div>
+      </nav>
                     <!-- Content
     ================================================== -->
                     <div class="main-content">

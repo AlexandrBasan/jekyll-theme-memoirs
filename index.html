@@ -9,8 +9,6 @@ pagination:
 
 {% if page.url == "/" %}
 
-
-
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row remove-site-content-margin">
 
@@ -54,16 +52,14 @@ pagination:
         <!-- <h4 class="font-weight-bold spanborder"><span>Лайф Сториз</span></h4> -->
 
         {% for post in paginator.posts offset:1 %}
-
             {% include main-loop-card.html %}
-
         {% endfor %}
 
-    <div class="bottompagination">
-        <span class="navigation" role="navigation">
-            {% include pagination.html %}
-        </span>
-    </div>
+        <div class="bottompagination">
+            <span class="navigation" role="navigation">
+                {% include pagination.html %}
+            </span>
+        </div>
 
     </div>
 
@@ -72,7 +68,5 @@ pagination:
     <!-- </div> -->
 
 </div>
-
-
 
 </div>
