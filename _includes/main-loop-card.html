@@ -11,7 +11,7 @@
 
 		<p style="margin-bottom: 0px;">
 			<a class="text-dark" href="{{site.baseurl}}{{post.url}}"
-				style="text-decoration: underline; font-style: italic;"> читать дальше <img
+				style="text-decoration: underline; font-style: italic;"> читати далі <img
 					src="/assets/images/arrow-right.svg" title="read more" width="18" height="18"></a>
 		</p>
 		<!-- Post Categories -->
@@ -27,7 +27,7 @@
 		</small>
 		<small class="text-muted" title="Estimated read time">
 			{% assign words = post.content | strip_html | number_of_words %}
-			{% if words < 360 %} 1 мин {% else %} {{ words | divided_by:180 }} мин {% endif %} </small>
+			{% if words < 360 %} 1 хв {% else %} {{ words | divided_by:180 }} хв {% endif %} </small>
 	</div>
 
 

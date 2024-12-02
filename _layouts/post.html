@@ -27,9 +27,9 @@ post_class: post-template
         {% endif %}
         {% assign words = page.content | strip_html | number_of_words %}
           {% if words < 360 %}
-           | 1 мин
+           | 1 хв
           {% else %}
-           | {{ words | divided_by:180 }} мин
+           | {{ words | divided_by:180 }} хв
         {% endif %}
         </div>
     </div>
